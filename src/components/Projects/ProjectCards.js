@@ -44,12 +44,19 @@ const ProjectCard = ({
                 <Card.Text>{description.slice(0, 560)}.....</Card.Text>
               )}
             </Card.Body>
-            <Button variant="primary" onClick={toggleDescription}>
-              {showFullDescription ? "Show Less" : "Show More"}
-            </Button>
-            {/* <Card.Footer> */}
-              {/* <Button href={ghLink}>GitHub Link</Button>{" "}
-              <Button href={demoLink}>Demo Link</Button> */}
+            <div
+              style={{ gap: "10px", display: "flex", justifyContent: "center" }}
+            >
+              <Button variant="primary" onClick={toggleDescription}>
+                {showFullDescription ? "Show Less" : "Show More"}
+              </Button>
+              {/* <Card.Footer> */}
+              {demoLink && (
+                <Button variant="primary" href={demoLink}>
+                  Web Link
+                </Button>
+              )}
+            </div>
             {/* </Card.Footer> */}
           </Card.Body>
         </Col>
