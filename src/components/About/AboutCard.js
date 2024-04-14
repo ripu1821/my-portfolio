@@ -14,6 +14,15 @@ function AboutCard() {
             <br />I am currently employed as a software developer at{" "}
             <span className="purple"> pizone infotech solution pvt ltd.</span>
             <br />
+            <br/>
+            <p>
+              I'm a dynamic web developer in ReactJS, NodeJS, NextJS, and
+              NestJS. Collaborative by nature, I've contributed to efficient
+              interfaces and elevated codequality. Adept at optimizing
+              performance and integrating API's, I stay current with industry
+              trends, ensuring my skills are always cutting-edge.
+            </p>
+           
             <br />
             Apart from coding, some other activities that I love to do!
           </p>

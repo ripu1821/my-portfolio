@@ -227,11 +227,11 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+        These are all <strong className="purple">projects </strong>
         </h1>
-        <p style={{ color: "white" }}>
+        {/* <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
-        </p>
+        </p> */}
         {/* <Row style={{ justifyContent: "center", paddingBottom: "10px" }}> */}
         {projects.map((project, index) => (
           <Col
