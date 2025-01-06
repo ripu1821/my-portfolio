@@ -159,7 +159,7 @@ function Projects() {
       images: [chat1, chat2, chat3, chat4, chat1, chat2, chat3],
     },
     {
-      title: "Sri Sathya Sai Divyanga Seva",
+      title: "SSS",
       achievements: [
         "AWS S3",
         "Security",
