@@ -18,12 +18,7 @@ import chat1 from "../../Assets/Projects/chat1.PNG";
 import chat2 from "../../Assets/Projects/chat2.PNG";
 import chat3 from "../../Assets/Projects/chat3.PNG";
 import chat4 from "../../Assets/Projects/chat4.PNG";
-import sss1 from "../../Assets/Projects/sss1.png";
-import sss2 from "../../Assets/Projects/sss2.png";
-import sss3 from "../../Assets/Projects/sss3.png";
-import sss4 from "../../Assets/Projects/sss4.png";
-import sss5 from "../../Assets/Projects/sss5.png";
-import sss6 from "../../Assets/Projects/sss6.png";
+import ssss from "../../Assets/Projects/ssss.png";
 import pp1 from "../../Assets/Projects/pp1.png";
 import pp2 from "../../Assets/Projects/pp2.png";
 import com1 from "../../Assets/Projects/comfirst.png";
@@ -174,7 +169,7 @@ function Projects() {
       ],
       description:
         "In our live project, we are created a comprehensive API system that integrates various functionalities with user profiles. One of the key features is the integration of AWS S3 for uploading and managing photos and voice recordings. This allows users to upload and share multimedia content seamlessly. Additionally, we have integrated an SMS service for notifications and user verification, enhancing the overall user experience and security of the platform. The project focuses on providing a smooth and efficient user experience through robust API integration and reliable service connections.",
-      images: [sss1, sss2, sss3, sss4, sss5, sss6, sss3],
+      images: [ssss, ssss, ssss, ssss, ssss, ssss, ssss],
     },
     {
       title: "Password Manager App",
