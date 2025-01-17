@@ -12,35 +12,39 @@ function AboutCard() {
             from{" "}
             <span className="purple"> Sri Ganganagar, Rajasthan, India.</span>
             <br />I am currently employed as a software developer at{" "}
-            <span className="purple"> pizone infotech solution pvt ltd.</span>
+            <span className="purple"> pizone infotech solution pvt ltd </span>
+            in <span className="purple"> Jaipur </span>.
             <br />
-            <br/>
+            <br />
             <p>
-              I'm a dynamic web developer in ReactJS, NodeJS, NextJS, and
-              NestJS. Collaborative by nature, I've contributed to efficient
-              interfaces and elevated codequality. Adept at optimizing
-              performance and integrating API's, I stay current with industry
-              trends, ensuring my skills are always cutting-edge.
+              As a passionate and dynamic
+              <span className="purple"> Web Developer,</span> I specialize in
+              technologies like{" "}
+              <span className="purple">ReactJS, NodeJS, NextJS,</span> and{" "}
+              <span className="purple">NestJS</span>. With a collaborative
+              mindset, I have consistently contributed to building efficient
+              user interfaces and elevating code quality. I’m skilled at
+              optimizing performance and seamlessly integrating APIs, ensuring
+              applications run smoothly and efficiently. Always driven to stay
+              at the forefront of industry advancements, I continuously refine
+              my expertise to deliver cutting-edge solutions.
             </p>
-           
             <br />
-            Apart from coding, some other activities that I love to do!
+            When I’m not immersed in coding, I dive into activities that
+            inspire, challenge, and energize me:
           </p>
           <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
+            <li className="about-activity">🎮 Gaming</li>
+            <li className="about-activity">✍️ Writing Tech Blogs</li>
+            <li className="about-activity">🏋️‍♂️ Staying Active</li>
+            <li className="about-activity">🎧 Listening to Music</li>
+            <li className="about-activity">✈️ Traveling</li>
           </ul>
           <br />
           <br />
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Striving to create solutions that inspire, innovate, and make a
+            difference!"{" "}
           </p>
           <footer className="blockquote-footer">ripu</footer>
         </blockquote>

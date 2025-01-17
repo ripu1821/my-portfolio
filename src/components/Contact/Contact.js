@@ -38,12 +38,12 @@ function Contact() {
               <CiLocationOn size={30} style={{ marginRight: "10px" }} />
               Location:{" "}
               <a
-                href="https://www.google.com/maps?q=Sri+Ganganagar"
+                href="https://www.google.com/maps?q=jaipur"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="purple"
               >
-                Sri Ganganagar
+                Jaipur
               </a>
             </h1>
           </Col>

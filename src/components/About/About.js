@@ -35,7 +35,7 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <h2 className="section-heading">
+        {/* <h2 className="section-heading">
           Professional <strong className="purple">Experience </strong> and{" "}
           <strong className="purple">Skillset </strong>
         </h2>
@@ -110,7 +110,82 @@ function About() {
             <ImPointRight /> Demonstrated ability to learn and adapt quickly in
             a fast-paced environment.
           </h6>
+        </ul> */}
+        <h2 className="section-heading">
+          Professional <strong className="purple">Experience</strong> and{" "}
+          <strong className="purple">Skillset</strong>
+        </h2>
+        <p className="section-description">
+          I’m a passionate software developer with a proven track record of
+          building dynamic, scalable, and innovative web applications. My
+          expertise lies in combining cutting-edge technologies with creative
+          problem-solving to deliver seamless user experiences and efficient
+          backend solutions.
+        </p>
+        <br />
+        <br />
+        <ul>
+          <h6 className="about-activity">
+            💻 Designed and developed high-performing web applications using
+            <b className="purple"> ReactJS, NodeJS, NextJS, and NestJS</b>,
+            ensuring scalability and reliability.
+          </h6>
+          <br />
+          <h6 className="about-activity">
+            🤝 Partnered with cross-functional teams to deliver
+            <b className="purple"> user-centric interfaces</b> that enhance
+            usability and engagement.
+          </h6>
+          <br />
+          <h6 className="about-activity">
+            🛠️ Followed best coding practices to produce
+            <b className="purple"> clean, maintainable, and robust code</b>{" "}
+            across all projects.
+          </h6>
+          <br />
+          <h6 className="about-activity">
+            ⚡ Optimized application performance through{" "}
+            <b className="purple">
+              efficient code practices and caching mechanisms
+            </b>
+            .
+          </h6>
+          <br />
+          <h6 className="about-activity">
+            🔗 Integrated various{" "}
+            <b className="purple"> APIs and third-party services </b>
+            to enhance functionality and improve user experience.
+          </h6>
+          <br />
+          <h6 className="about-activity">
+            🐛 Conducted thorough testing and debugging to identify and
+            <b className="purple"> resolve software issues </b> effectively.
+          </h6>
+          <br />
+          <h6 className="about-activity">
+            🔍 Actively participated in code reviews, providing
+            <b className="purple"> constructive feedback </b> to ensure quality
+            standards.
+          </h6>
+          <br />
+          <h6 className="about-activity">
+            🌐 Stayed up-to-date with the latest{" "}
+            <b className="purple"> web technologies </b>
+            and industry trends to enhance skills and knowledge.
+          </h6>
+          <br />
+          <h6 className="about-activity">
+            🚀 Successfully delivered both frontend and backend solutions for{" "}
+            <b className="purple"> multiple projects</b>.
+          </h6>
+          <br />
+          <h6 className="about-activity">
+            📚 Demonstrated a strong ability to{" "}
+            <b className="purple"> learn and adapt </b>
+            in fast-paced development environments.
+          </h6>
         </ul>
+
         <br />
         <br />
         <h1 className="project-heading">

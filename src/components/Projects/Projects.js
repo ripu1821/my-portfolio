@@ -44,6 +44,13 @@ import balajimultisales4 from "../../Assets/Projects/balajimultisales4.png";
 import balajimultisales5 from "../../Assets/Projects/balajimultisales5.png";
 import balajimultisales6 from "../../Assets/Projects/balajimultisales6.png";
 import balajimultisales7 from "../../Assets/Projects/balajimultisales7.png";
+import gym1 from "../../Assets/Projects/gym1.png";
+import gym2 from "../../Assets/Projects/gym2.png";
+import gym3 from "../../Assets/Projects/gym3.png";
+import gym4 from "../../Assets/Projects/gym4.png";
+import gym5 from "../../Assets/Projects/gym5.png";
+import gym6 from "../../Assets/Projects/gym6.png";
+import gym7 from "../../Assets/Projects/gym7.png";
 
 function Projects() {
   const projects = [
@@ -112,6 +119,21 @@ function Projects() {
       demoLink: "https://www.balajimultisales.in/",
     },
     {
+      title: "Gym",
+      achievements: [
+        "Robust Backend Development",
+        "Seamless User Experience",
+        "Responsive Design",
+        "Client Requirements Tailoring",
+        "User-Focused Solutions",
+        "High-Quality Deliverables",
+      ],
+      description:
+        "I recently completed an exciting website project for a dynamic fitness and wellness center, and I’m thrilled to showcase it in my portfolio. Leveraging the advanced capabilities of Supabase, I designed a robust and secure backend system to efficiently manage member registrations, workout schedules, and class bookings, ensuring a seamless user experience. The website features a responsive design, flawlessly adapting to various devices and screen sizes, making it accessible for fitness enthusiasts on the go. Collaborating closely with the gym management team, I customized the website to showcase their state-of-the-art equipment, expert trainers, and transformational success stories. Focusing on user engagement, I developed an intuitive interface that allows members to easily explore fitness programs, book classes, and track their progress. Rigorous testing and optimization ensured that the platform delivers exceptional performance across all browsers and devices. This project reflects my dedication to crafting innovative, client-focused solutions that cater to the needs of fitness enthusiasts while enhancing the gym's online presence and operational efficiency.",
+      images: [gym1, gym2, gym3, gym4, gym5, gym6, gym7],
+      demoLink: "https://gym-drab-theta.vercel.app/",
+    },
+    {
       title: "Food Delivery App Admin Panel",
       achievements: [
         "Security",
@@ -124,26 +146,6 @@ function Projects() {
       description:
         "The Next.js admin panel is a comprehensive web application designed for managing various aspects of a system, including user details, project categories, offers, and orders. It features a user-friendly interface with responsive design, ensuring a seamless experience across different devices. The user management section allows administrators to view, create, edit, and delete user accounts, ensuring efficient management of user-related data. The project category management section provides tools for creating, editing, and deleting project categories, enabling administrators to organize projects effectively. The offer management section allows for the creation, editing, and deletion of offers, facilitating the management of promotional activities. The order management section enables administrators to view order details, update order statuses, and delete orders as needed, ensuring effective management of the ordering process. Additionally, the admin panel implements authentication and authorization mechanisms, ensuring that only authorized users can access and perform actions within the system. It also includes error handling and validation features to ensure data integrity and prevent malicious inputs. Overall, the Next.js admin panel is a powerful tool for managing various aspects of a system, providing administrators with the tools they need to efficiently manage user accounts, project categories, offers, and orders.",
       images: [food1, food2, food3, food4, food5, food1, food2],
-    },
-    {
-      title: "Food Delivery App Back End",
-      achievements: [
-        "JWT Authentication",
-        "Payment Integration",
-        "Redis implements",
-        "Token blacklist",
-      ],
-      description:
-        "In the food delivery app backend built with NestJS, we have implemented a range of APIs to facilitate various functionalities. For user management, we have endpoints for user registration, login, profile update, and password management, including forgot password functionality. The product category API allows for managing and retrieving different food categories available in the app. The offer API enables the creation, retrieval, and management of special offers and discounts for users. The cart API allows users to add, remove, and update items in their shopping cart. For payments, we have integrated APIs to handle payment processing securely. These APIs collectively form a robust backend system to power the food delivery app, providing a seamless experience for both users and administrators. #We have also implemented JWT (JSON Web Token) authentication to secure the APIs. When a user successfully logs in or registers, a JWT token is generated and sent back to the client. This token is then included in the Authorization header of subsequent requests to authenticate the user. The backend verifies the JWT token to ensure that the request is coming from an authenticated user. If the token is valid, the request is processed; otherwise, an unauthorized error is returned. This approach ensures that only authenticated users can access protected APIs, providing a secure environment for the food delivery app.",
-      images: [
-        food_back1,
-        food_back2,
-        food_back3,
-        food_back4,
-        food_back5,
-        food_back6,
-        food_back7,
-      ],
     },
     {
       title: "AI GPT Clone",
@@ -170,6 +172,26 @@ function Projects() {
       description:
         "In our live project, we are created a comprehensive API system that integrates various functionalities with user profiles. One of the key features is the integration of AWS S3 for uploading and managing photos and voice recordings. This allows users to upload and share multimedia content seamlessly. Additionally, we have integrated an SMS service for notifications and user verification, enhancing the overall user experience and security of the platform. The project focuses on providing a smooth and efficient user experience through robust API integration and reliable service connections.",
       images: [ssss, ssss, ssss, ssss, ssss, ssss, ssss],
+    },
+    {
+      title: "Food Delivery App Back End",
+      achievements: [
+        "JWT Authentication",
+        "Payment Integration",
+        "Redis implements",
+        "Token blacklist",
+      ],
+      description:
+        "In the food delivery app backend built with NestJS, we have implemented a range of APIs to facilitate various functionalities. For user management, we have endpoints for user registration, login, profile update, and password management, including forgot password functionality. The product category API allows for managing and retrieving different food categories available in the app. The offer API enables the creation, retrieval, and management of special offers and discounts for users. The cart API allows users to add, remove, and update items in their shopping cart. For payments, we have integrated APIs to handle payment processing securely. These APIs collectively form a robust backend system to power the food delivery app, providing a seamless experience for both users and administrators. #We have also implemented JWT (JSON Web Token) authentication to secure the APIs. When a user successfully logs in or registers, a JWT token is generated and sent back to the client. This token is then included in the Authorization header of subsequent requests to authenticate the user. The backend verifies the JWT token to ensure that the request is coming from an authenticated user. If the token is valid, the request is processed; otherwise, an unauthorized error is returned. This approach ensures that only authenticated users can access protected APIs, providing a secure environment for the food delivery app.",
+      images: [
+        food_back1,
+        food_back2,
+        food_back3,
+        food_back4,
+        food_back5,
+        food_back6,
+        food_back7,
+      ],
     },
     {
       title: "Password Manager App",

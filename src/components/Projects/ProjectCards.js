@@ -52,7 +52,12 @@ const ProjectCard = ({
               </Button>
               {/* <Card.Footer> */}
               {demoLink && (
-                <Button variant="primary" href={demoLink}>
+                <Button
+                  variant="primary"
+                  href={demoLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Web Link
                 </Button>
               )}

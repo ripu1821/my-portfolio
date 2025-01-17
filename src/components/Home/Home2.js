@@ -13,51 +13,71 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+        <Row className="my-5">
+          <Col md={8} className="home-about-description text-light">
+            <h1
+              style={{
+                fontSize: "2.2em",
+                fontWeight: "bold",
+                textAlign: "left",
+              }}
+            >
+              ALLOW ME TO <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            <p
+              className="home-about-body"
+              style={{ fontSize: "1.3em", lineHeight: "1.8", color: "#f0f0f0" }}
+            >
+              I’m deeply passionate about programming, and along the way, I’ve
+              built a solid foundation of knowledge… or at least, I like to
+              think so! 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />
+              I’m proficient in the classics such as
               <i>
                 <b className="purple">
                   {" "}
-                  Javascript, Node.js, React.js, and Nest.js.{" "}
+                  JavaScript, Node.js, React.js, and Nest.js.{" "}
                 </b>
               </i>
               <br />
-              <br />I specialize in developing cutting-edge &nbsp;
+              <br />I specialize in developing next-generation &nbsp;
               <i>
-                <b className="purple">Web Technologies and API Services, </b>{" "}
-                with a keen interest in{" "}
+                <b className="purple">Web Technologies and API Services,</b>{" "}
+                with a deep focus on{" "}
                 <b className="purple">Prompt Engineering Practices.</b>
               </i>
               <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with
+              <br />I also thrive on leveraging my passion for creating modern,
+              high-performance products using
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Modern JavaScript Libraries and Frameworks
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; such as
               <i>
                 <b className="purple"> React.js and Nest.js</b>
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+
+          <Col
+            md={4}
+            className="myAvtar d-flex justify-content-center align-items-center"
+          >
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                src={myImg}
+                className="img-fluid rounded-circle shadow-lg"
+                alt="avatar"
+                style={{ border: "5px solid #6f42c1", maxWidth: "80%" }}
+              />
             </Tilt>
           </Col>
         </Row>
+
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
@@ -97,7 +117,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/ripu_bishnoi"
+                  href="https://www.instagram.com/ripu_bishnoi_21"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
